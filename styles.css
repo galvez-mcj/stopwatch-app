@@ -1,0 +1,56 @@
+body {
+    background: url('./image.jpg') no-repeat center center/ cover;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    height: 250px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+}
+
+.container #timer {
+    width: 100%;
+    font-size: 75px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0px auto;
+    padding-top: 35px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: whitesmoke;
+    width: 50px;
+}
+
+#play {
+    background-color: green;
+}
+
+#pause {
+    background-color: orange;
+}
+
+#reset {
+    background-color: red;
+}
